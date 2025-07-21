@@ -96,8 +96,8 @@ int main(int argc, char **argv) {
     while (getInput(str)) {
 
         if (strEquals(str, "uci")) {
-            printf("id name Ethereal " ETHEREAL_VERSION "\n");
-            printf("id author Andrew Grant, Alayan & Laldon\n");
+            printf("id name NecroMindX\n");
+            printf("id author Suprateem Das\n");
             printf("option name Hash type spin default 16 min 2 max 131072\n");
             printf("option name Threads type spin default 1 min 1 max 2048\n");
             printf("option name EvalFile type string default <empty>\n");
